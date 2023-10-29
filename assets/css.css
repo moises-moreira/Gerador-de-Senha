@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+body>div{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    border: gray solid 1px;
+    box-shadow: red 1px 1px;
+    text-align: center;
+    margin-top: 430px;
+    padding: 20px;
+    background: linear-gradient(90deg, black, blue);
+}
+
+body>div>div{
+    font-size: 30px;
+    color: greenyellow;
+    font-weight: bold;
+    margin: 15px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    font-weight: 800;
+}
